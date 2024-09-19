@@ -45,7 +45,7 @@ body * {
 #container {
   width: 100%;
   max-width: 530px;
-  height: 712px;
+  height: 790px;
   margin: auto;
   margin-top: 56px;
   margin-right: auto;
@@ -86,14 +86,14 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  animation: slide-back 0.3s ;
+  animation: slide-back 0.3s;
 }
 
 .light #switch button {
   animation: slide-in 0.3s forwards;
 }
-#switch button:hover{
-outline: 8px solid var(--socialmidias-color);
+#switch button:hover {
+  outline: 8px solid var(--socialmidias-color);
 }
 #switch span {
   display: block;
@@ -169,18 +169,18 @@ footer a:hover {
 }
 /* animações */
 @keyframes slide-in {
-  from{ 
+  from {
     left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
-@keyframes slide-back{
-  from{
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-  to{
-    left:0;
+  to {
+    left: 0;
   }
 }
